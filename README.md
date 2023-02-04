@@ -27,3 +27,5 @@ Steps:
 2. Get 3 most profitable intervals
 3. Set crontab for mode 4 for those intervals
 
+# Getting this working
+I have unceremoniously removed all the keys from files so you'll need to edit the code to re-add them (probably as env vars if you value your sanity)

@@ -8,7 +8,6 @@ from typing import List, Tuple
 from givenergy_client import GivEnergyClient
 
 
-API_KEY="sk_live_nKwF6l22KbdsePu6YXKbdzTC"
 ACCOUNT_NO="A-5ACFDBD4"
 EXPORT_MPAN="1411949651009"
 IMPORT_MPAN="1470001346836"
@@ -34,7 +33,6 @@ EXPORT_PRODUCT_CODE="AGILE-OUTGOING-19-05-13"
 #     print('done')
 
 class OctopusClient:
-    api_key = "sk_live_nKwF6l22KbdsePu6YXKbdzTC"
     def _auth_post(self, url: str, body=None):
         return requests.post(url, auth=(self.api_key,''), json=body).json()
 
